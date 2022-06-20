@@ -52,47 +52,8 @@ If the name of environment doesn't match, change it to your virtual environment 
 ## Problems
 In each of the notebook file, we indicate `TODO` or `Your Code` for you to fill in with your implementation.
 
-### Problem 1: Variational Autoencoders (45 points)
+### Problem 1: Variational Autoencoders 
 The IPython Notebook `CSCI566_Assignment2_problem_1_VAE.ipynb` will walk you through implementing VAEs with PyTorch.
 
-### Problem 2: Transformers for language modeling and sentiment analysis (55 points)
+### Problem 2: Transformers for language modeling and sentiment analysis 
 The IPython Notebook `CSCI566_Assignment2_problem_2_Transformer.ipynb` will walk you through implementing a Transformer model with PyTorch.
-
-## How to submit
-
-Run the following command to zip all the necessary files for submitting your assignment. Note that, in addition to your notebook **with all cell outputs** you will need to manually create a submission PDF for each problem set that compiles all generated plots / answers. Detailed instructions are at the end of the notebooks. **Do not simply render your notebook as a pdf**. Create a separate file with **only** the specified components. The command below aggregates all notebooks and solution PDFs.
-
-**If using Colab, remember to download the .ipynb files locally!!!**
-
-```shell
-sh collectSubmission.sh
-```
-
-This will create a file named `assignment2.zip`, **please rename it with your usc student id (eg. 4916525888.zip)**, and submit this file through the [Google form](https://forms.gle/XTAaKoCQy1dTWeYu8).
-Do NOT create your own .zip file, you might accidentally include non-necessary materials for grading.
-
-**We will deduct points if you don't follow the above submission guidelines.**
-
-**VERIFY THAT THE `assignment2.zip` CONTAINS THE IPYNB FILES AND THE PDFS**
-
-**!! SUBMIT YOUR NOTEBOOK INCLUDING ALL CELL OUTPUTS, WE WILL NOT RERUN YOUR NOTEBOOKS !!**
-
-## Questions?
-If you have any question or find a bug in this assignment (or even any suggestions), we are more than welcome to assist through Piazza.
-
-Again, NO INDIVIDUAL EMAILS WILL BE RESPONDED.
-
-PLEASE USE **PIAZZA** TO POST QUESTIONS (under folder hw2).
-
-## FAQ
-
-- Can I reuse the virtualenv from Assignment 1?
-You can reuse the vistual environment but maybe you need to install some missing packages using pip3 install -r requirements.txt.
-Maybe simpler is to create a new virtualenv, we give instructions above.
-- Will I get full credit for my VAE generated samples?
-Please do not ask for verification on Piazza as to whether your generated samples will receive full credit. We will not be unreasonable. As long as your results look as expected, you will receive credit. If you’re worried, then compare to results from one of the [original VAE papers](https://arxiv.org/pdf/1312.6114.pdf).
-
-- **General debugging tips**
-1. Make sure your implementations matches the specified model layers perfectly.
-2. Put print statements at various places inside your implementation code to make sure every module is working as it should. 
-(but please remove any additional print statements for submission)
